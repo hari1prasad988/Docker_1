@@ -1,5 +1,6 @@
-FROM nginx
-MAINTAINER Hari
-LABEL This is Movie Ticket
+FROM httd
+MAINTAINER Naga
+LABEL This is Cloths Shopping
 EXPOSE 80
-COPY index.html /usr/share/nginx/html/
+COPY index.html /usr/local/apache2/htdocs/
+
